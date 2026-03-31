@@ -47,6 +47,7 @@ This project uses a **Linear Regression model** to predict travel time based on 
 
 ## 🏗️ System Workflow
 User Input → Geocoding → Distance Calculation → ML Model → Time Prediction → Traffic Analysis → Weather Fetch → Output Display  
+<img width="1536" height="1024" alt="c48c7969-c0c8-4a1b-a014-8eafebfbfa3a" src="https://github.com/user-attachments/assets/8c6fd889-ce11-4cac-82a2-129d1400430a" />
 
 ---
 
@@ -108,7 +109,7 @@ Smart-Commute-Assistant/
 ## ⚙️ Setup Instructions
 
 ### 1. Clone Repository
-git clone
+git clone https://github.com/diyaapoulkar-alt/smart-commute-assistant
 cd smart-commute-assistant
 ### 2. Install Dependencies
 pip install -r requirements.txt
