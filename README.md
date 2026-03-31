@@ -102,10 +102,6 @@ Smart-Commute-Assistant/
 │── README.md
 │── requirements.txt
 │
-├── assets/
-│ ├── workflow_diagram.png
-│ └── screenshots.png
-│
 ├── docs/
 │ └── Project_Report.pdf
 
