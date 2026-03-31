@@ -67,6 +67,12 @@ User Input → Geocoding → Distance Calculation → ML Model → Time Predicti
 - Performance optimization  
 
 ---
+## Output
+<img width="1916" height="1079" alt="Screenshot 2026-03-31 185554" src="https://github.com/user-attachments/assets/08be732e-313f-44e6-9c6b-499e39b4afb8" />
+<img width="1914" height="1033" alt="Screenshot 2026-03-31 185608" src="https://github.com/user-attachments/assets/cc81ce9e-f7a5-4156-aa8c-466c96722074" />
+<img width="1918" height="1079" alt="Screenshot 2026-03-31 185656" src="https://github.com/user-attachments/assets/7899c6f8-bf97-4766-a702-ce150cbbc177" />
+<img width="1918" height="1079" alt="Screenshot 2026-03-31 185709" src="https://github.com/user-attachments/assets/a4810b80-d13f-49aa-9b1b-9c3c733aa280" />
+
 
 ## 🚀 Future Enhancements
 - Advanced ML models  
