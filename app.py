@@ -20,10 +20,11 @@ import pandas as pd
 import streamlit as st
 import folium
 from streamlit_folium import st_folium
-from dotenv import load_dotenv
-
-# Load environment variables
-load_dotenv()
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
 
 OPENCAGE_KEY = os.getenv("OPENCAGE_KEY", "ff5da74a3813406eb539b7df97a9d72f")
 OPENWEATHER_KEY = os.getenv("OPENWEATHER_KEY", "7beb61cdd2ceae85227c9d7135e6867d")
