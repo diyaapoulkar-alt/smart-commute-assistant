@@ -1,4 +1,4 @@
-# 🚗 Smart Commute Assistant — Cuberto-Inspired Real-Road Mobility Engine
+# 🚗 Smart Commute Assistant — Real-Road Navigation & Mobility Intelligence Platform
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.30-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
@@ -8,14 +8,26 @@
 
 An **elite, real-road commute intelligence platform and departure recommendation engine** built with **Python**, **Streamlit**, **OSRM (Open Source Routing Machine)**, **Folium**, and **OpenStreetMap**.
 
-Designed with an **elite, Cuberto-inspired luxury beige UI aesthetic**, providing true highway/city road navigation, multi-modal transport comparison, peak-hour rush traffic estimation, turn-by-turn directions, and eco CO₂ footprint analytics.
+Featuring a **minimalist luxury beige design system**, real highway/city road navigation, multi-modal transport comparison, peak-hour rush traffic estimation, turn-by-turn directions, and eco CO₂ footprint analytics.
+
+🚀 **Live Developer Portfolio**: [https://diyaapoulkar-portfolio.vercel.app](https://diyaapoulkar-portfolio.vercel.app/)
+
+---
+
+## 👤 Developer Profile
+
+**Diyaa Poulkar**  
+*Computer Science Student • Developer • Problem Solver*  
+🎓 **VIT Bhopal University** — B.Tech in Computer Science Engineering (CGPA: **9.31**)  
+💼 Core Technical Team Member at **Linpack Club**  
+🏆 2nd Runner Up in **AI AGENTS TRACK** for the SoCF 2.0 Hackathon
 
 ---
 
 ## ✨ Key Features
 
-- 🎨 **Cuberto-Inspired Luxury Beige Aesthetic**: High-contrast minimal design system (`#F7F4EF`), pill badges (`#E7E2D7`), sleek rounded cards, and elegant typography inspired by *Cuberto Digital Agency*.
-- 🗺️ **OSRM Real Road Routing Engine**: Replaces straight-line distance math with real road geometry (GeoJSON polylines), actual turn-by-turn maneuvers, true driving distance, and exact road travel duration.
+- 🎨 **Minimalist Luxury Beige Aesthetic**: High-contrast design system (`#F7F4EF`), pill badges (`#E7E2D7`), sleek rounded cards, and typography (`Outfit` / `Plus Jakarta Sans`).
+- 🗺️ **OSRM Real Road Routing Engine**: Replaces straight-line distance math with real road geometry (GeoJSON polylines), turn-by-turn maneuvers, true driving distance (km), and exact road travel duration.
 - 🚗 **Multi-Modal Transport Comparison**: Compare travel time, fuel costs, and carbon footprint across **Car 🚗**, **Motorcycle 🏍️**, **Public Transit 🚌**, **Bicycle 🚴**, and **Walking 🚶**.
 - ⏱️ **Peak Traffic & Smart Departure Recommender**: Intelligent rush hour model (Morning 8-10 AM, Evening 5-8 PM) calculating exact recommended departure times based on desired target arrival schedules.
 - 🌿 **Eco CO₂ Footprint Calculator**: Real-time carbon emission ($kg$ CO₂) and fuel cost estimates for selected transport modes vs green alternatives.
@@ -51,7 +63,7 @@ graph TD
 | Layer | Technologies Used |
 | :--- | :--- |
 | **Language & Core** | Python 3.10+ |
-| **UI Framework** | Streamlit, Custom Cuberto CSS Design System |
+| **UI Framework** | Streamlit, Custom Luxury Beige CSS Design System |
 | **Real Road Routing** | OSRM (Open Source Routing Machine) |
 | **Geocoding & Maps** | Nominatim OpenStreetMap, OpenCage API, Folium, Streamlit-Folium |
 | **Weather & Data** | OpenWeatherMap, Open-Meteo, Pandas |
@@ -90,10 +102,15 @@ OPENWEATHER_KEY=your_openweather_key
 
 ## 🚀 Running the Application
 
-```bash
-streamlit run app.py
-```
-Open `http://localhost:8501` in your browser.
+1. Change directory to the repository folder:
+   ```bash
+   cd smart-commute-assistant
+   ```
+2. Launch the Streamlit Web Dashboard:
+   ```bash
+   streamlit run app.py
+   ```
+3. Open `http://localhost:8501` in your browser.
 
 ---
 
@@ -101,7 +118,7 @@ Open `http://localhost:8501` in your browser.
 
 ```text
 smart-commute-assistant/
-├── app.py                     # Streamlit Cuberto-Themed Dashboard & OSRM Engine
+├── app.py                     # Streamlit Luxury Beige Dashboard & OSRM Engine
 ├── requirements.txt           # Managed Python dependencies
 ├── .env.example               # Environment variables template
 ├── SMART COMMUTE ASSISTANT.pdf# Project documentation PDF
